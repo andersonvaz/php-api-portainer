@@ -1,0 +1,7 @@
+.idea
+*~
+.vscode
+local
+vendor
+composer.lock
+config.json

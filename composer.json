@@ -1,0 +1,36 @@
+{
+    "name": "andersonvaz/php-api-portainer",
+    "type": "library",
+    "description": "PHP API client for Portainer",
+    "keywords": ["api","docker","portainer"],
+    "homepage": "https://github.com/andersonvaz/php-api-portainer",
+    "license": ["GPL-3.0+","LGPL-3.0+", "MIT"],
+    "authors": [
+        {
+            "name": "Anderson Minuto Consoni Baz",
+            "email": "anderson@wdhouse.com.br",
+            "homepage": "http://www.wdhouse.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+          "Deploycloud\\Portainer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deploycloud\\Portainer\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+
+    },
+    "minimum-stability": "stable"
+}
